@@ -1,0 +1,28 @@
+<!DOCTYPE html> <!-- Assignment 3 Task 1 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Styling</title>
+    <style>
+        .dynamic-element {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dynamic Styling Demo</h1>
+    
+    <div id="box" class="dynamic-element" onclick="changeColor()">Click me to change color</div>
+    <div id="hover-box" class="dynamic-element">Hover over me to change style</div>
+    <button id="toggle-btn" class="dynamic-element" onclick="toggleBox()">Click me to toggle visibility of the next box</button>
+    <div id="toggle-box" class="dynamic-element">I'll be toggled</div>
+    <input type="text" id="focus-input" class="dynamic-element" onfocus="changeBorder()" placeholder="Focus on me to change border">
+
+    <script src="stylePage.js"></script>
+</body>
+</html>
