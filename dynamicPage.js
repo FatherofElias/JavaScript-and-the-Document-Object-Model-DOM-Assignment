@@ -7,7 +7,7 @@ let products = [
 // Task 2
 function displayProducts() {
     const container = document.getElementById('product-container');
-    container.innerHTML = ''; // Clear previous content
+    container.innerHTML = ''; 
     products.forEach(product => {
         const productDiv = document.createElement('div');
         productDiv.className = 'product';
